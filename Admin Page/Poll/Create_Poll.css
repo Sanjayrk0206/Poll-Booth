@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+}
+.inputbox{
+    width: 60%;
+    height: 70%;
+    justify-content: center;
+    margin-top: 7.5%;
+    font-size: 35px;
+    font-family: 'Righteous', cursive;
+    box-shadow: 2px 2px 2px black,
+                -2px -2px 2px whitesmoke;
+    overflow-y: auto;
+}
+.inputbox table{
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+.inputbox table th{
+    background-color: coral;
+}
+.inputbox table i:hover{
+    color: red;
+}
+.inputbox button[type='button']{
+    float: right;
+    margin-right: 2.5%;
+    margin-top: 5%;
+}
+.inputbox button[type='submit']{
+    margin-left: 39%;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+::-webkit-scrollbar-track {
+    border: 1px solid black;
+}
+::-webkit-scrollbar-thumb {
+    background: black;  
+}
+::-webkit-scrollbar-thumb:hover {
+    background: black;  
+}
+#poll{
+    display: none;
+}
+#PTeam{
+    display: none;
+}

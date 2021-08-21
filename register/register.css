@@ -1,0 +1,93 @@
+body{
+    background-image: url("https://res.cloudinary.com/dg3gyk0gu/image/upload/v1618433525/egghead-next-ebombs/tailwindcss-dark-mode-nextjs-typography-prose/dropped-in-dark-pyramids-cubes-spheres-cylinders_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+}
+.register{
+    margin-top: 5%;
+    color: white;
+    font-size: 22px;
+    font-family: 'Carter One', cursive;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    height: 70%;
+    border: 2px solid #1F282D;
+}
+.registerback{
+    display: inline;
+    float: right;
+    color: limegreen;
+    font-size: 25px;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+.registerback:hover{
+    margin-top: 0.5%;
+    font-size: 30px;
+}
+.registerdiv{
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.registerdiv1{
+    display: block;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.registerdiv1 input{
+    width: 35%;
+}
+.registerdiv2{
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-top: 5%;
+}
+.registerin{
+    width: 50%;
+    font-size: 20px;
+    padding: 0.5%;
+    padding-left: 1%;
+    background-color: transparent;
+    font-family: 'Carter One', cursive;
+    color: white;
+    border: none;
+    border-bottom: 3px solid limegreen;
+}
+.registerin:focus{
+    background-color: white;
+    color: black;
+    outline: none;
+}
+.loginbutton{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    font-size: 16px;
+    font-family: 'Carter One', cursive;
+    color: white;
+    padding: 0.5%;
+    padding-inline: 2%;
+    background-color: limegreen;
+    border: 2px solid limegreen;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.loginbutton:hover{
+    border-color: limegreen;
+    box-shadow: 0px 0px 15px 2px limegreen;
+}
+input[type="reset"]{
+    margin-left: 3%;
+}

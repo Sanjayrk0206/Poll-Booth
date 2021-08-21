@@ -1,0 +1,13 @@
+.dis{
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 75%;
+}
+th{
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+}
